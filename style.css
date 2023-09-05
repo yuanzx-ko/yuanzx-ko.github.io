@@ -1,0 +1,186 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 头部样式 */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* 主页样式 */
+#home {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 48px;
+}
+
+.image-home {
+    max-width: 700px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#home p {
+    font-size: 24px;
+}
+
+/* 招募页面样式 */
+#recruitment {
+    background-color: #fff;
+    text-align: center;
+}
+
+.image-recruitment {
+    max-width: 700px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#recruitment p {
+    font-size: 24px;
+}
+
+/* 服务页面样式 */
+#services {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.image-services {
+    max-width: 700px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#services p {
+    font-size: 24px;
+}
+
+/* 联系方式页面样式 */
+#contact {
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 24px;
+}
+
+/* 招募说明页面样式 */
+#recruitment-info {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.image-recruitment-info {
+    max-width: 700px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#recruitment-info p {
+    font-size: 24px;
+}
+
+/* 关于我们页面样式 */
+#about {
+    background-color: #fff;
+    text-align: center;
+}
+
+.image-about {
+    max-width: 700px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about p {
+    font-size: 24px;
+}
+
+/* 底部样式 */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+/* 响应式布局 */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    nav ul li a {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    .image-home,
+    .image-recruitment,
+    .image-services,
+    .image-recruitment-info,
+    .image-about {
+        max-width: 100%;
+    }
+    #home p,
+    #recruitment p,
+    #services p,
+    #contact p,
+    #recruitment-info p,
+    #about p {
+        font-size: 18px;
+    }
+}
